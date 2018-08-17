@@ -42,7 +42,6 @@ public class ListActivity extends AppCompatActivity implements MainListView , Ad
     protected void onStart() {
         super.onStart();
         mainListViewPresenter.onSuccess();
-
     }
 
     @Override
